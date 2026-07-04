@@ -3,8 +3,8 @@
 # Taking input from the user
 employee_name = input("Enter Employee Name: ")
 salary = float(input("Enter Salary (₹): "))
-experience = int(input("Enter Years of Experience: "))
-performance_rating = int(input("Enter Performance Rating (1-5): "))
+experience = float(input("Enter Years of Experience: "))
+performance_rating = float(input("Enter Performance Rating (1-5): "))
 
 # Display Employee Details
 print("\n------ Employee Details ------")
