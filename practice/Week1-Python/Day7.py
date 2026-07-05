@@ -1,8 +1,8 @@
 # Student Grade Analyzer
 
-# Taking input
+
 student_name = input("Enter Student Name: ")
-roll_number = input("Enter Roll Number: ")
+roll_number = int(input("Enter Roll Number: "))
 
 print("\nEnter Marks for 5 Subjects")
 
@@ -37,7 +37,7 @@ else:
     result = "FAIL"
 
 # Display Report Card
-print("\n          REPORT CARD           ")
+print("\n=========REPORT CARD============")
 print("Student Name :", student_name)
 print("Roll Number  :", roll_number)
 print("---------------------------------")
@@ -51,4 +51,4 @@ print("Total Marks      :", total, "/ 500")
 print("Percentage       :", percentage, "%")
 print("Grade            :", grade)
 print("Result           :", result)
-print("                                  ")
+print("===================================")
