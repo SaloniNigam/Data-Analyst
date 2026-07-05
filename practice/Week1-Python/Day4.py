@@ -1,6 +1,6 @@
 # ATM Withdrawal Simulator
 
-# Taking input
+
 account_holder = input("Enter Account Holder Name: ")
 balance = float(input("Enter Account Balance (₹): "))
 
