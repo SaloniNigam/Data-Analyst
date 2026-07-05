@@ -1,6 +1,6 @@
 # Online Shopping Discount Calculator
 
-# Taking input
+
 customer_name = input("Enter Customer Name: ")
 purchase_amount = float(input("Enter Total Purchase Amount (₹): "))
 premium_member = input("Are you a Premium Member? (Yes/No): ")
@@ -28,6 +28,7 @@ print("Customer Name:", customer_name)
 print("Original Bill: ₹", purchase_amount)
 print("Total Discount: ₹", discount)
 print("Final Payable Amount: ₹", final_amount)
+print("\n--------------------------- ")
 
 # Bonus
 if final_amount > 10000:
