@@ -1,8 +1,8 @@
 # Customer Login Verification
 
 # Correct Credentials
-correct_username = "Saloni"
-correct_password = "SN@123"
+correct_username = "Stella"
+correct_password = "al123"
 
 # Allow 3 login attempts
 for attempt in range(1, 4):
